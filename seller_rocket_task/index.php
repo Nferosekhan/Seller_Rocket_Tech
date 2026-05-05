@@ -35,6 +35,7 @@ elseif (isset($_GET['error'])) {
 				<ul class="navbar-nav">
 					<li class="nav-item" style="color: #F5C518 !important;padding: 18px;"><a href="#hero">Home</a></li>
 					<li class="nav-item" style="color: #F5C518 !important;padding: 18px;"><a href="#services">Services</a></li>
+					<li class="nav-item" style="color: #F5C518 !important;padding: 18px;"><a href="admin.php">Admin Login</a></li>
 					<li class="nav-item" style="color: #F5C518 !important;padding: 18px;"><a href="#contact">Contact</a></li>
 				</ul>
 			</div>

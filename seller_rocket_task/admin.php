@@ -28,7 +28,7 @@ elseif (isset($_GET['error'])) {
 <body>
 	<header>
 		<nav class="navbar navbar-expand-sm fixed-top" style="background-color: #1E2248 !important;color: #F5C518 !important;">
-			<a class="navbar-brand" style="color: #F5C518;">Seller Rocket</a>
+			<a class="navbar-brand" style="color: #F5C518;" href="index.php">Seller Rocket</a>
 		</nav>
 	</header>
 	<main style="margin: 90px 30px;padding: 18px;">
