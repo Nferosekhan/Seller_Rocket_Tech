@@ -13,11 +13,11 @@ else {
         $stmt->bind_param("i", $id);
 
         if ($stmt->execute()) {
-            header("Location: index.php?success=Deleted!");
+            header("Location: admin.php?success=Deleted!");
             exit();
         }
         else {
-            header("Location: index.php?error=Unable to Proceed Right Now, Try again");
+            header("Location: admin.php?error=Unable to Proceed Right Now, Try again");
             exit();
         }
 
